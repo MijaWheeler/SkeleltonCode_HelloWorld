@@ -15,24 +15,38 @@ package frc.robot;
 public final class Constants 
 {
 
-/* MOTOR CONTROLER ASSIGNMENTS */
+/* IMPORTANT URLS */
+    /* 
+    Spark Max API Library URL
+        https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json
+    
+    Spark Max Motor Controller Home Page
+         https://docs.revrobotics.com/sparkmax/   
+    */
+
+
+
+ /* MOTOR CONTROLER ASSIGNMENTS */
 
     // SparkMax Motor Controller- CanBus ID number
-    // Used for Dr
-    public static int SparkMax_0 = 0;
+    
+    public static int SparkMax_11 = 11; //TEST
+    
+    //Tank 0-5
+    public static int SparkMax_0 = 0; 
     public static int SparkMax_1 = 1;
     public static int SparkMax_2 = 2;
     public static int SparkMax_3 = 3;
     public static int SparkMax_4 = 4;
+    public static int SparkMax_5 = 5;
 
+    public static int SparkMax_6 = 6; //Rotate Plate
+    public static int SparkMax_7 = 7; //Bicep
+    public static int SparkMax_8 = 8; //Forarm
+    public static int SparkMax_9 = 9; //Claw Rotate
+    public static int SparkMax_10 = 10; //Claw Grab
 
-
-    // Old Spark & Talon Motor Controller - PWM Port
-    public static int PWM_0 = 0;
-    public static int PWM_1 = 1;
-    public static int PWM_2 = 2;
-    public static int PWM_3 = 3;
-
+    
 
 
 
@@ -42,10 +56,10 @@ public final class Constants
      public static int JoystickPort = 0;
 
     //letter buttons on right
-    public static int ButtonA = 1;
-    public static int ButtonB = 2;
-    public static int ButtonX = 3;
-    public static int ButtonY = 4;
+    public static int A_ID = 1;
+    public static int B_ID = 2;
+    public static int X_ID = 3;
+    public static int Y_ID = 4;
 
     //trigger IDs
     public static int LTrigger = 2;
